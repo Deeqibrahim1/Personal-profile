@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/site.css">
+    <title>Deeq's Personal Profile</title>
+</head>
+<body>
+    <!-- Header with Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <img src="assets/images/deeq.jpg" alt="Deeq Ibrahim" class="profile-img">
+            <h1>Deeq Ibrahim</h1>
+            <p>Aspiring Software Developer | Full-Stack Student at We Can Code IT | Problem Solver & Tech Enthusiast</p>
+            <a href="assets/resume.pdf" class="cta-button">Download Resume</a>
+            <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="skills">
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="assets/images/project1.jpg" alt="Project 1">
+            <h3>Project Title</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repository</a>
+            <a href="https://yourprojectlive.com" target="_blank">Live Demo</a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="assets/resume.pdf" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/Deeqibrahim1" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/deeq-ibrahim-404937345" target="_blank">LinkedIn</a>
+            <a href="Ibrahideeq787@gmail.com">Email</a>
+        </div>
+    </section>
+</body>
+</html>

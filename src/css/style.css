@@ -1,0 +1,15 @@
+
+
+:root{
+    --dark-color:#05070a;
+    --accent-color: #5863f8;
+    --highlight-color:#fcff3b;
+}
+
+
+   * after 
+   * before{
+padding: 0
+
+   }
+
